@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: pink;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  max-width: 600px;
+  width: 100%;
+  height: 70%;
+  margin: auto;
+  padding: 4rem 1rem;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 10px rgba(112, 111, 111, 0.219);
+}
+
+h1 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  align-items: center;
+}
+
+input {
+  width: 60%;
+  border: 1px solid rgba(167, 161, 161, 0.26);
+  outline: none;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+button {
+  background-color: purple;
+  border-radius: 5px;
+  width: 12rem;
+  color: white;
+  align-self: center;
+  font: 400 1rem sans-serif;
+  border: none;
+  cursor: pointer;
+  padding: 1rem 2rem;
+}
+.error {
+  color: red;
+  text-align: right;
+}
